@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkst</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bolder;
+           
+        }
+        a:visited{
+            text-decoration: none;
+            color: rgb(255, 24, 24);
+        }
+        a{
+            color:rgb(163, 13, 13);
+            text-decoration: none;
+        }
+        a:active{
+            color: yellow;
+
+        }
+        .opa:hover{
+            text-decoration: underline;
+        }
+        .opa::after{
+           content: '☍';
+        }
+        .opa{
+            background-color: rgb(236, 119, 119);
+        }
+
+        
+        
+    </style>
+</head> 
+<body>
+    <h1>Personalizando links</h1>
+    <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" class="opa">Curso em video</a></li>
+    <li><a href="https://color.adobe.com/pt/create/color-wheel"> Adobe</a></li>
+    <li><a href="www.zendesk.com.br ">Zen</a></li>
+</body>
+</html>
