@@ -7,10 +7,41 @@
 </head><style> body{ font-family: Arial, Helvetica, sans-serif;
 }</style>
 <body>
-    <form autocomplete="off"  action="cadastro.php">
+    <form autocomplete="off"  action="cadastro.php" method="post" >
     <h1>Formularios</h1>
-    <p> <label for="nome">name:</label> <input  type="text" name="nome" id="nome"></p>
-    <p><input type="submit" value="Enviar"></p>
+
+   <fieldset>
+    <legend>Dados</legend>
+   <p> <label for="name1">Name</label>
+    <input type="text" name="nome" id="name1" placeholder="Seu nome" required>
+    </p>
+    <p>
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass" required> 
+    </p>
+    <p>
+        <label for="iEmail">Email</label>
+        <input type="email" name="email" id="iEmail" placeholder="seunome@gmail.com" required>
+    </p>
+   </fieldset>
+    <p>
+        <label for="tel">Tel</label>
+        <input type="tel" name="telefone" id="tel" required>  -3x3  mj j KI< ·ł  
+
+    </p>
+    <p>
+        <label for="idate">Date</label>
+        <input type="date" name="data" id="idate">
+    </p>
+
+    <p><input type="submit" value="Enviar"> <input type="reset" value="Reset"></p>
+    <p>
+        
+    </p>
+    <p>
+        <label for="msg">Mensagem</label>
+        <textarea name="msg" id="Mensagem"></textarea>
+    </p>
 </form>
 </body>
 </html>
